@@ -10,7 +10,7 @@ The boilerplate has a number of major components. They include:
 	
 	3. Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More)
 	
-	4. eCSSential
+	4. eCSSential (https://github.com/scottjehl/eCSSential)
 	
 At its root, the boilerplate is an amalgation of different techniques from
 equally brilliant and talented developers. Ryan and Dropseed Solutions
