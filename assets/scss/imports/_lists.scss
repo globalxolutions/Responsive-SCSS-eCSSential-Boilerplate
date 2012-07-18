@@ -1,0 +1,25 @@
+// LISTS ==================================================
+	
+	ul,
+	ol {
+		list-style: none;
+		margin: 0 0 1.4em 0;
+		padding: 0;
+		list-style-image: none;
+	}
+	
+	nav ul,
+	nav ol {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		list-style-image: none;
+	}
+
+	ul,
+	li,
+	ol {
+		> ol, > ul {
+			margin-bottom: 0;
+		}
+	}

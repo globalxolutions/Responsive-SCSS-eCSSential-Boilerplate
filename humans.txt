@@ -1,0 +1,13 @@
+/* TEAM */
+
+	Chef: 
+	Site: 
+	Twitter: 
+	Location: 
+
+/* SITE */
+
+	Last update: 
+	Standards: HTML5, CSS3
+	Components: Modernizr, jQuery, Adaptive-Images, Respond.js
+	Software: 
