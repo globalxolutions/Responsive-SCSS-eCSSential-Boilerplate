@@ -8,7 +8,7 @@ The boilerplate has a number of major components. They include:
 	
 	2. Adaptive-Images (http://adaptive-images.com)
 	
-	3. Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More)
+	3. Font Awesome (http://fortawesome.github.com/Font-Awesome/)
 	
 	4. eCSSential (https://github.com/scottjehl/eCSSential)
 	
