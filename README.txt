@@ -1,4 +1,4 @@
-The Responsive SCSS eCSSebtuak Boilerplate is a front-end framework created by
+The Responsive SCSS eCSSential Boilerplate is a front-end framework created by
 designer and developer Ryan Roth to be utilized in the creation of
 mobile-first responsive designs by his company, Dropseed Solutions, LLC. (http://dropseedsolutions.com).
 
