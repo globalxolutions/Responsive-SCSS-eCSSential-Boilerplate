@@ -36,7 +36,7 @@ To use the boilerplate:
 	
 	2. Adaptive Images automatically caches and resizes images for responsive designs
 		
-		a) Place all images to be cached and resized (think images that are not repeatable, layout design type images, more content images) in the img directory
+		a) Place all images to be cached and resized (think images that are not repeatable, layout design type images; more content images) in the img directory
 		
 		b) Make the img/cache directory world-writable on your server (chmod 777)
 		
