@@ -1,8 +1,6 @@
 // TABLES ==================================================
 
 	table{
-		border-collapse: collapse;
-		border-spacing: 0;
 		max-width: 100%;
 		height: auto;
 		button, input { 
@@ -17,7 +15,6 @@
 	}
 
 	td {
-		@include font-size(14);
 		vertical-align: top;
 		padding: 0.5em;
 	}
@@ -39,15 +36,6 @@
 
 	thead th {
 		vertical-align: bottom;
-	}
-
-	caption + thead tr:first-child th,
-	caption + thead tr:first-child td,
-	colgroup + thead tr:first-child th,
-	colgroup + thead tr:first-child td,
-	thead:first-child tr:first-child th,
-	thead:first-child tr:first-child td {
-		border-top: 0;
 	}
 
 	[colspan="1"] { 

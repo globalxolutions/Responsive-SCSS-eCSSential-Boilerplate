@@ -14,7 +14,7 @@
 		border: 0;
 		padding: 0;
 		*margin-left: 7px;
-		white-space : normal;
+		white-space: normal;
 	}
 
 	label {
@@ -81,14 +81,15 @@
 			-ms-appearance: textfield;
 			-o-appearance: textfield;
 			@include box-sizing(content-box);
+			&::-webkit-search-decoration,
+			&::-webkit-search-decoration,
+			&::-webkit-search-cancel-button {
+				-webkit-appearance: none;
+			}
 		}
 		&::-moz-focus-inner {
 			border: 0;
 			padding: 0;
-		}
-		&::-webkit-search-decoration,
-		&::-webkit-search-cancel-button {
-			-webkit-appearance: none;
 		}
 	}
 
