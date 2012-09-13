@@ -1,18 +1,8 @@
-// MEDIA ==================================================
-
-	audio,
-	canvas,
-	video {
-		display: inline-block;
-		*display: inline;
-		*zoom: 1;
-	}
-
-	audio:not([controls]) {
-		display: none;
-	}
-
-	img{
+/* ==========================================================================
+   Media
+   ========================================================================== */
+   
+	img {
 		vertical-align: middle;
 		-ms-interpolation-mode: bicubic;
 	}
@@ -24,6 +14,12 @@
 		height: auto;
 		border: 0;
 		_width: 100%;
+	}
+	
+	.ie8, ie7 {
+		img {
+			width: auto;
+		}
 	}
 
 	svg:not(:root) { 

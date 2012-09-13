@@ -1,13 +1,14 @@
 /* TEAM */
+	Chef: Dropseed Solutions, LLC
+	Contact: info [at] dropseedsolutions.com
+	Twitter: @dropseed
+	From: Bristol, Pennsylvania, United States
 
-	Chef: 
-	Site: 
-	Twitter: 
-	Location: 
+/* THANKS */
 
 /* SITE */
-
-	Last update: 
+	Last update: 2012/09/10
+	Language: English
 	Standards: HTML5, CSS3
-	Components: Modernizr, jQuery, Adaptive-Images, Respond.js
-	Software: 
+	Components: Modernizr, Adaptive-Images, Respond.js, jQuery, Font-Awesome
+	Software: Aptana Studio, Notepad++, FileZilla, Photoshop

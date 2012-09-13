@@ -1,7 +1,7 @@
-// MIXINS ==================================================
+//  Mixins ==========================================================================
 
 	//CALCULATIONS ==================================================
-	
+
 		@function calc-ems($target, $container) {
 			@return ($target / $container) * 1em
 		}
@@ -16,7 +16,7 @@
 			font-size: #{$font-size}px;
 			font-size: #{$font-size / 16}rem;
 		}
-		
+
 		@mixin font-face($name, $font-files, $eot: false, $weight: false, $style: false) {
 			$iefont: unquote("#{$eot}?#iefix");
 			@font-face {
@@ -156,7 +156,7 @@
 			-o-transform: translate($x, $y, $z);
 			transform: translate($x, $y, $z); 
 		}
-		
+
 		@mixin box-sizing($boxsize: border-box) {
 			-webkit-box-sizing: $boxsize;
 			-moz-box-sizing: $boxsize;
@@ -195,7 +195,7 @@
 		@mixin invisible() {
 			visibility: hidden; 
 		}
-		
+
 		@mixin visuallyhidden() {
 			border: 0;
 			clip: rect(0 0 0 0);

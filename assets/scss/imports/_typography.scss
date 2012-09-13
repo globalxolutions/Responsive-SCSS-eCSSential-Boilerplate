@@ -1,5 +1,7 @@
-// TYPOGRAPHY ==================================================
-
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+   
 	html,
 	body,
 	button,
@@ -9,7 +11,7 @@
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #222;
 	}
-	
+
 	h1,
 	h2,
 	h3 {
@@ -18,22 +20,22 @@
 		font-weight: bold;
 		text-rendering: optimizelegibility;
 	}
-	
+
 	h1 {
 		@include font-size(32);
 		margin: 1.75em 0;
 	}
-	
+
 	h2 {
 		@include font-size(28);
 		margin: 1.7em 0;
 	}
-	
+
 	h3 {
 		@include font-size(24);
 		margin: 1.63333em 0;
 	}
-	
+
 	b,
 	strong {
 		font-weight: bold;
@@ -49,11 +51,11 @@
 		line-height: 1.4em;
 		margin: 0 0 1.4em 0;
 	}
-	
+
 	blockquote { 
 		margin: 1em 2.5em; 
 	}
-	
+
 	abbr[title] {
 		border-bottom: 1px dotted;
 	}
@@ -97,6 +99,10 @@
 		white-space: pre;
 		white-space: pre-wrap;
 		word-wrap: break-word;
+	}
+	
+	q {
+		quotes: "\201C" "\201D" "\2018" "\2019";
 	}
 
 	sub,

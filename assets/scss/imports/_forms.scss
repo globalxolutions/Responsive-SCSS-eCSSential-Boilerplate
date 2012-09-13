@@ -1,5 +1,7 @@
-// FORMS ==================================================
-	
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+   
 	form {
 		margin: 0;
 	}
@@ -25,6 +27,7 @@
 	button,
 	select,
 	textarea {
+		font-family: inherit;
 		font-size: 100%;
 		margin: 0;
 		vertical-align: baseline;
@@ -100,7 +103,7 @@
 	select[readonly],
 	textarea[readonly] {
 		@include opacity(.5);
-		cursor: not-allowed;
+		cursor: default;
 	}
 
 	input:focus:required:invalid,
