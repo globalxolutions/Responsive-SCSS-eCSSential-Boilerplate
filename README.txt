@@ -12,9 +12,9 @@ The boilerplate has a number of major components. They include:
 	
 	4. eCSSential (https://github.com/scottjehl/eCSSential)
 	
-At its root, the boilerplate is an amalgation of different techniques from
+At its root, the boilerplate is an amalgation of brilliant techniques from
 equally brilliant and talented developers. Ryan and Dropseed Solutions
-thanks them for their tireless commitment to quality and openness. They include:
+thank them for their tireless commitment to quality and openness. They include:
 
 	1. 320 and Up (http://stuffandnonsense.co.uk/projects/320andup)
 	
