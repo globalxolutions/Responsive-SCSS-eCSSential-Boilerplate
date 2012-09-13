@@ -47,8 +47,8 @@ To use the boilerplate:
 	3. Writing your SCSS:
 		
 		a) In your Ruby prompt change directory all the way to the assets folder of the boilerplate and do the following:
-			
-			sass --watch scss/:css/
+		
+			sass --watch scss:css
 		
 		b) Write SCSS which pertains to devices with a min-width of 320PX inside scss/all.scss
 		
