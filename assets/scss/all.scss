@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import "imports/display";
 @import "imports/mixins";
 
+@import "imports/display";
 @import "imports/base";
 @import "imports/typography";
 @import "imports/links";
@@ -14,12 +14,6 @@
 @import "imports/grid";
 
 	//STYLES FOR MIN-WIDTH 320PX HERE
-	
-	.a:after {
-		display:block;
-		content: "all.css was loaded and is currently applied.";
-		margin-top: 1em;
-	}
 
 @media print {
 	@import "imports/print";

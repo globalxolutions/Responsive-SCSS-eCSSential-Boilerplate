@@ -47,7 +47,7 @@
 		-o-appearance: button;
 		appearance: button;
 		*overflow: visible;
-		@include box-sizing(border-box);
+		@include box-sizing();
 		&::-moz-focus-inner {
 			border: 0;
 			padding: 0;
@@ -73,10 +73,10 @@
 		}
 		&[type="checkbox"], 
 		&[type="radio"] {
-			@include box-sizing(border-box);
 			padding: 0;
 			*width: 13px;
 			*height: 13px;
+			@include box-sizing();
 		}
 		&[type="search"] { 
 			-webkit-appearance: textfield;

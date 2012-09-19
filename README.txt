@@ -12,9 +12,9 @@ The boilerplate has a number of major components. They include:
 	
 	4. eCSSential (https://github.com/scottjehl/eCSSential)
 	
-At its root, the boilerplate is an amalgation of brilliant techniques from
+At its root, the boilerplate is an amalgation of different techniques from
 equally brilliant and talented developers. Ryan and Dropseed Solutions
-thank them for their tireless commitment to quality and openness. They include:
+thanks them for their tireless commitment to quality and openness. They include:
 
 	1. 320 and Up (http://stuffandnonsense.co.uk/projects/320andup)
 	
@@ -47,8 +47,8 @@ To use the boilerplate:
 	3. Writing your SCSS:
 		
 		a) In your Ruby prompt change directory all the way to the assets folder of the boilerplate and do the following:
-		
-			sass --watch scss:css
+			
+			sass --watch scss/:css/
 		
 		b) Write SCSS which pertains to devices with a min-width of 320PX inside scss/all.scss
 		
