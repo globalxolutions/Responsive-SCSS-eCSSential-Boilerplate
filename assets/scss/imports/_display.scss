@@ -1,6 +1,18 @@
 /* ==========================================================================
-   HTML5 display definitions
+   Display definitions
    ========================================================================== */
+   
+	@-o-viewport {
+		width: device-width;
+	}
+		
+	@-ms-viewport {
+		width: device-width;
+	}
+	
+	@viewport { 
+		width: device-width;
+	}
 	
 	* {
 		@include box-sizing();
