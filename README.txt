@@ -52,6 +52,6 @@ To use the boilerplate:
 		
 		b) Write SCSS which pertains to devices with a min-width of 320PX inside scss/all.scss
 		
-		c) Write other SCSS inside the file with the EM value to which it is pertinent
+		c) Write other SCSS inside the file with the PX value to which it is pertinent
 		
 	
